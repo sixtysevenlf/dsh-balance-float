@@ -1,0 +1,8 @@
+# 仓库内统一用 LF：本插件的「永久删除内置页」是**基于行**改写 lib/client.js 的，
+# 行尾若被 Checkout 成 CRLF，匹配会失配（Windows 上 core.autocrlf=true 时就会发生）。
+* text=auto eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf

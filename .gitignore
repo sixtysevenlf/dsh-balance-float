@@ -5,6 +5,9 @@ credentials.yaml
 .env.*
 *.pem
 *.key
+# 自填 key 的自定义标签页配置（明文 API key）
+dsh-opencode-go-monitor.json
+tabs.json
 
 # node_modules / 依赖
 node_modules/
@@ -19,6 +22,12 @@ build/
 probe*.mjs
 probe-*.mjs
 *_slice.mjs
+tmp-*.mjs
+_dbg*.mjs
+_old_client.js
+
+# 永久删除内置页时留下的源码备份（只在你本机有意义，且含个人路径）
+backups/
 
 # 日志与本地数据
 *.log
